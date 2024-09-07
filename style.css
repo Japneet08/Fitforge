@@ -155,7 +155,7 @@ html,body{
 
 /* Section 3: Group Create-Join Cards */
 .section3 {
-    height: auto;
+    height: 650px;
     background-color: black;
     /* background-color: black; */
     /* background-color: red; */
@@ -197,7 +197,8 @@ html,body{
     /* border-radius: 20px; */
 }
 .custom-card p {
-    font-size: 20px;
+    font-size: 15px;
+    opacity: 0.5;
     background-color: black;
     /* background-color: black; */
     color: white;
@@ -207,7 +208,7 @@ html,body{
 .section4{
     background-color: black;
     /* background-color: black; */
-    height: 600px;
+    height: 700px;
     padding: 50px 50px 50px 50px;
     /* z-index: 1; */
 }
@@ -273,10 +274,10 @@ html,body{
 .footer-section5{
     height: 650px;
     background-color: black;
-    margin-top: 100px;
+    /* margin-top: 20px; */
     /* background-color: rgb(224, 218, 218); */
     display: flex;
-    padding: 60px 24px 0px;
+    padding: 50px 24px 0px;
     /* border-radius: 20px; */
 }
 .footer{
