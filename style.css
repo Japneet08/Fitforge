@@ -130,7 +130,7 @@ html,body{
     align-self: flex-end;
     justify-self: end;
     position: relative;
-    right: -570px;
+    right: -620px;
     bottom: 25px;
 }
 
@@ -197,8 +197,14 @@ html,body{
     border-bottom-right-radius: 20px;
 }
 .custom-card:hover{
-    transform: scale(1.08);
+    transform: scale(1.1);
+    border: 2px solid  #ffa500;
 }
+.custom-card h2:hover{
+    color: #FFB733;
+}
+
+
 .section3-card-image {
     height: 250px;
     background-color: black;
