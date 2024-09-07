@@ -2,9 +2,13 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
 }
 
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
 ::-webkit-scrollbar {
     width: 5px;
   }
@@ -45,19 +49,19 @@
 
 /* Section 1: Fitscape & Main Image */
 .section1 {
-    background-color: whitesmoke;
+    background-color: black;
     /* background-color: black; */
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 880px;
+    height: 700px;
 }
 
 .first {
-    background-color: whitesmoke;
+    background-color: black;
     /* background-color: black; */
-    /* color: white; */
+    color: white;
     font-size: 60px;
     height: 90px;
     margin-top: 30px;
@@ -65,7 +69,7 @@
 }
 
 .fitscape {
-    background-color: whitesmoke;
+    background-color: black;
     /* background-color: black; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 160px;
@@ -76,62 +80,80 @@
 }
 
 .banner-image {
-    background-color: whitesmoke;
+    background-color: black;
     /* background-color: black; */
-    height: 750px;
-    background-image: url(ban1.png);
-    background-size: cover;
-    position: relative;
-    top: -25px;
-    margin-left: 60px;
+    display: flex;
+    height: 650px;
+    width: 1000px;
+    background-image: url("ban1.png");
+    background-size:cover;
+    /* position: relative; */
+    /* top: -5px; */
     z-index: 0;
+    margin-left: 17.5%;
 }
 
 /* Section 2: Banner for Personal Coaching */
 .section2 {
     height: auto;
+    width: 100%;
     /* background-color: black; */
-    background-color: whitesmoke;
+    background-color: black;
     display: flex;
-    justify-content: center;
-    padding-top: 100px;
+    flex-direction: column;
+    align-items: center ;
+    padding-top: 70px;
 }
 
 .coaching-image {
     /* background-color: #f2eded; */
     /* background-color: rgb(33, 33, 33); */
-    background-color: whitesmoke;
-    height: 555px;
+    background-color: black;
+    height: 540px;
+    /* width: 90%; */
     border-radius: 20px;
-    width: 98.5%;
-    background-image: url(section2-banner.png);
+    width: 86%;
+    background-image: url(find-your-coach.png);
     background-size: contain;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content:center;
+    align-items: center;
     position: relative;
+    padding-bottom: 50px;
 }
 
-.coaching-image button {
-    position: absolute;
-    margin-bottom: 105px;
-    margin-right: 50px;
-    background-color: rgb(205, 241, 205);
-    color: black;
+.section2-button{
+    /* position: absolute; */
+    /* margin-bottom: 5px; */
+    /* margin-right: 50px; */
+    /* background-color: black(205, 241, 205); */
+    /* justify-content: end; */
+    color: white;
+    align-self: flex-end;
+    /* justify-self: end; */
+    position: relative;
+    right: -450px;
+    bottom: 20px;
 }
 
 .coaching-image a {
-    margin-right: 410px;
-    margin-bottom: 45px;
+    /* margin-right: 410px; */
+    /* margin-bottom: 45px; */
+    /* position: absolute; */
     text-decoration: none;
-    background-color: whitesmoke;
-    color: black;
+    background-color: black;
+    color: white;
+    align-self: flex-end;
+    justify-self: end;
+    position: relative;
+    left: 170px;
+    bottom: -40px;
 }
 
 /* Section 3: Group Create-Join Cards */
 .section3 {
     height: auto;
-    background-color: whitesmoke;
+    background-color: black;
     /* background-color: black; */
     /* background-color: red; */
     display: flex;
@@ -143,40 +165,40 @@
     /* margin-top: 50px; */
 }
 
+
 .custom-card {
-    width: 23rem;
-    /* height: 25rem; */
+    width: 22rem;
+    /* border-radius: 50px; */
     transition:  all 0.7s;
-    border-radius: 20px;
-    /* background-color: black; */
-    /* border: 10px; */
+    background-color: black;
 }
 .custom-card h2{
-    background-color: whitesmoke;
+    background-color: black;
     /* background-color: black; */
-    /* color: whitesmoke; */
+    color: whitesmoke;
 }
 .card-body{
-    border-radius: 20px;
-    background-color: whitesmoke;
+    /* border-radius: 50px; */
+    background-color: black;
     /* background-color: black; */
 }
 .custom-card:hover{
     transform: scale(1.08);
 }
 .section3-card-image {
-    height: 320px;
+    height: 250px;
+    background-color: black;
 }
 .custom-card p {
     font-size: 20px;
-    background-color: whitesmoke;
+    background-color: black;
     /* background-color: black; */
-    /* color: white; */
+    color: white;
 }
 
 /* section :4 */
 .section4{
-    background-color: whitesmoke;
+    background-color: black;
     /* background-color: black; */
     height: 600px;
     padding: 50px 50px 50px 50px;
@@ -185,7 +207,7 @@
 .quiz-section{
     height: 500px;
     /* background-color: red; */
-    background-color: whitesmoke;
+    background-color: black;
     /* background-color: black; */
     display: flex;
     justify-content: space-between;
@@ -210,24 +232,24 @@
     align-items: center;
     justify-content: center;
     /* background-color: aquamarine; */
-    background-color: whitesmoke;
+    background-color: black;
     /* background-color: black; */
 }
 .quiz-section-text-1{
     text-align: center;
     font-size: 70px;
     /* background-color: bisque; */
-    background-color: whitesmoke;
-    /* background-color: black; */
+    background-color: black;
+    color: whitesmoke;
 }
 .quiz-section-text-1 p{
     margin: 0px 0px 0px 0px;
-    background-color: whitesmoke;
+    background-color: black;
     color: #FFA500;
 }
 .quiz-section-text-2{
     /* background-color: yellow; */
-    background-color: whitesmoke;
+    background-color: black;
     /* background-color: black; */
     height:200px;
     width: 90%;
@@ -240,8 +262,98 @@
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* footer */
+.footer-section5{
+    height: 650px;
+    background-color: black;
+    margin-top: 100px;
+    /* background-color: rgb(224, 218, 218); */
+    display: flex;
+    padding: 60px 24px 0px;
+    /* border-radius: 20px; */
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    padding-right: 150px;
+}
+.footer-fitscape{
+    width: 100%;
+    height:70px;
+    /* background-color: red; */
+    background-color: black;
+    color: orange;
+    display: flex;
+    align-items: center;    
+    font-size: 70px;
+    padding-left: 50px;
+}
+.footer-section2{
+    width: 100%;
+    height: 400px;
+    /* background-color: blue; */
+    background-color: black;
+    padding-top: 30px;
+    display: flex;
+}
 
-.section5{
-    height: 500px;
-    background-color: red;
+.footer-section2-box1{
+    width: 30%;
+    height: 300px;
+    /* background-color: yellow; */
+    background-color: black;
+    padding-top: 30px;
+    padding-left: 50px;
+    margin-right: 100px;
+}
+
+#footer-section1{
+    margin: 10px;
+    background-color: black;
+    /* background-color: lightblue; */
+    color: whitesmoke;
+}
+
+.footer-section2-boxes{
+    height: auto;
+    width: 15%;
+    background-color: black;
+    /* background-color: darkkhaki; */
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2-boxes-divs{
+    height: 25px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: black;
+    color: whitesmoke;
+    /* background-color: aqua; */
+}
+.footer-section2-coach{
+    background-color: black;
+    /* background-color: orange; */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 20px; */
+    /* text-decoration: underline wheat; */
+}
+
+.footer-section2-coach h2{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: right;
+}
+
+.custom-button{
+    margin-top: 35px ;
+    /* background-color: hotpink; */
+    background-color: black;
+    height: auto;
+    display: flex;
+    justify-content: end;
 }
