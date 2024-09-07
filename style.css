@@ -24,23 +24,26 @@ html,body{
   }
 
 /* Navbar Styles */
-.navbar {
-    height: 55px;
+/* Container styling */
+
+/* Container styling */
+.container {
+    background-color: black;
 }
 
+/* Navbar item styling */
 .navbar-nav .nav-item {
-    margin-right: 30px;
-    font-size: 24px;
+    font-size: 22px;
 }
 
-.navbar-nav .nav-item:last-child {
-    margin-right: 0;
+/* Navbar link hover effect */
+.navbar-nav .nav-link:hover {
+    color: orange !important; /* Ensure the hover color takes effect */
+    text-decoration: none;
 }
 
-.nav-link:hover {
-    /* color: #ff7f50; */
-    text-decoration: underline;
-}
+
+
 
 /* .btn-outline-success:hover {
     background-color: #28a745;
