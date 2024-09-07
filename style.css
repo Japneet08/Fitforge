@@ -171,19 +171,22 @@ html,body{
 
 .custom-card {
     width: 22rem;
-    /* border-radius: 50px; */
-    transition:  all 0.7s;
-    background-color: black;
+    transition:  all 0.5s;
+    /* background-color: black; */
 }
 .custom-card h2{
     background-color: black;
     /* background-color: black; */
     color: whitesmoke;
 }
+.section3 img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
 .card-body{
-    /* border-radius: 50px; */
     background-color: black;
-    /* background-color: black; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .custom-card:hover{
     transform: scale(1.08);
@@ -191,6 +194,7 @@ html,body{
 .section3-card-image {
     height: 250px;
     background-color: black;
+    /* border-radius: 20px; */
 }
 .custom-card p {
     font-size: 20px;
