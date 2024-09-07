@@ -1,0 +1,247 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: whitesmoke;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(122, 122, 122);
+    border-radius: 40px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff7f50;
+  }
+
+/* Navbar Styles */
+.navbar {
+    height: 55px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 30px;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-link:hover {
+    /* color: #ff7f50; */
+    text-decoration: underline;
+}
+
+/* .btn-outline-success:hover {
+    background-color: #28a745;
+    color: #ffffff;
+} */
+
+/* Section 1: Fitscape & Main Image */
+.section1 {
+    background-color: whitesmoke;
+    /* background-color: black; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 880px;
+}
+
+.first {
+    background-color: whitesmoke;
+    /* background-color: black; */
+    /* color: white; */
+    font-size: 60px;
+    height: 90px;
+    margin-top: 30px;
+    z-index: 2;
+}
+
+.fitscape {
+    background-color: whitesmoke;
+    /* background-color: black; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 160px;
+    height: 100px;
+    color: orange;
+    margin-top: -60px;
+    z-index: 1;
+}
+
+.banner-image {
+    background-color: whitesmoke;
+    /* background-color: black; */
+    height: 750px;
+    background-image: url(ban1.png);
+    background-size: cover;
+    position: relative;
+    top: -25px;
+    margin-left: 60px;
+    z-index: 0;
+}
+
+/* Section 2: Banner for Personal Coaching */
+.section2 {
+    height: auto;
+    /* background-color: black; */
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.coaching-image {
+    /* background-color: #f2eded; */
+    /* background-color: rgb(33, 33, 33); */
+    background-color: whitesmoke;
+    height: 555px;
+    border-radius: 20px;
+    width: 98.5%;
+    background-image: url(section2-banner.png);
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+}
+
+.coaching-image button {
+    position: absolute;
+    margin-bottom: 105px;
+    margin-right: 50px;
+    background-color: rgb(205, 241, 205);
+    color: black;
+}
+
+.coaching-image a {
+    margin-right: 410px;
+    margin-bottom: 45px;
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* Section 3: Group Create-Join Cards */
+.section3 {
+    height: auto;
+    background-color: whitesmoke;
+    /* background-color: black; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    /* background-color: rgb(249, 245, 245); */
+    /* margin-top: 50px; */
+}
+
+.custom-card {
+    width: 23rem;
+    /* height: 25rem; */
+    transition:  all 0.7s;
+    border-radius: 20px;
+    /* background-color: black; */
+    /* border: 10px; */
+}
+.custom-card h2{
+    background-color: whitesmoke;
+    /* background-color: black; */
+    /* color: whitesmoke; */
+}
+.card-body{
+    border-radius: 20px;
+    background-color: whitesmoke;
+    /* background-color: black; */
+}
+.custom-card:hover{
+    transform: scale(1.08);
+}
+.section3-card-image {
+    height: 320px;
+}
+.custom-card p {
+    font-size: 20px;
+    background-color: whitesmoke;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+/* section :4 */
+.section4{
+    background-color: whitesmoke;
+    /* background-color: black; */
+    height: 600px;
+    padding: 50px 50px 50px 50px;
+    /* z-index: 1; */
+}
+.quiz-section{
+    height: 500px;
+    /* background-color: red; */
+    background-color: whitesmoke;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row-reverse; */
+    /* z-index: 2; */
+}
+.quiz-section-image{
+    height: 450px;
+    width: 450px;
+    background-image: url('section3-card4.jpg') ;
+    background-size: cover;
+    align-self: center;
+    border-radius: 30px;
+    margin-left: 100px;
+    /* z-index: 3; */
+}
+.quiz-section-text{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    background-color: whitesmoke;
+    /* background-color: black; */
+}
+.quiz-section-text-1{
+    text-align: center;
+    font-size: 70px;
+    /* background-color: bisque; */
+    background-color: whitesmoke;
+    /* background-color: black; */
+}
+.quiz-section-text-1 p{
+    margin: 0px 0px 0px 0px;
+    background-color: whitesmoke;
+    color: #FFA500;
+}
+.quiz-section-text-2{
+    /* background-color: yellow; */
+    background-color: whitesmoke;
+    /* background-color: black; */
+    height:200px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#center-quiz-button{
+    font-size: 25px; 
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.section5{
+    height: 500px;
+    background-color: red;
+}
