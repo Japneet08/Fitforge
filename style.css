@@ -351,9 +351,14 @@ html,body{
 
 .footer-section2-coach h2{
     background-color: black;
-    color: whitesmoke;
+    color: #ffa500;
     font-size: 30px;
     text-align: right;
+}
+.footer-section2-coach h2:hover{
+    transform: scale(1.2);
+    color: #FFB733;
+    transition: 0.5s;
 }
 
 .custom-button{
