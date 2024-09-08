@@ -204,9 +204,11 @@ html,body{
 .custom-card:hover{
     transform: scale(1.1);
     border: 1px solid  rgb(246, 206, 103);
+    transition: 0.8s;
 }
 .custom-card h2:hover{
-    color: rgb(244, 224, 174);
+    color:rgb(246, 206, 103) ;
+    transition: 0.5s;
 }
 
 
