@@ -11,18 +11,28 @@ html,body{
     scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 3px;
   }
   ::-webkit-scrollbar-track {
-    background: whitesmoke;
+    background: black;
   }
   ::-webkit-scrollbar-thumb {
-    background: rgb(122, 122, 122);
+    background: orange;
     border-radius: 40px;
   }
-  ::-webkit-scrollbar-thumb:hover {
-    background: #ff7f50;
-  }
+  /* Horizontal Scrollbar Styles */
+::-webkit-scrollbar:horizontal {
+    height: 2px; /* Set height for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track:horizontal {
+    background: black; /* Background color for track */
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background: orange; /* Thumb color for horizontal scrollbar */
+    border-radius: 40px;
+}
 
 
 /* Navbar item styling */
