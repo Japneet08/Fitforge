@@ -9,7 +9,33 @@ html,body{
     width: 100%;
     background-color: black;
     scroll-behavior: smooth;
+    cursor: none;
 }
+
+.custom-cursor {
+    position: absolute;
+    width: 50px; /* Size of the circular background */
+    height: 50px;
+    border-radius: 50%; /* Make it circular */
+    background-color: rgba(255, 165, 0, 0.2); /* Orange translucent background */
+    pointer-events: none; /* So it doesn't block clicks */
+    z-index: 1000; /* Always on top */
+    transform: translate(-50%, -50%); /* Center the circle on the pointer */
+    transition: transform 0.1s ease-in-out;
+}
+/* Inner colored dot */
+.custom-cursor::after {
+    content: '';
+    width: 10px; /* Size of the dot */
+    height: 10px;
+    background-color: orange; /*Color of the dot */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 ::-webkit-scrollbar {
     width: 3px;
   }
