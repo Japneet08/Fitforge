@@ -104,11 +104,13 @@ html,body{
     top: -40px;
     z-index: 1; /* Lower z-index to keep it behind the banner */
     height: auto;
+    text-shadow: 1.5px 1.5px whitesmoke;
 }
 .section1-fitscape:hover{
-    transform: scale(1.04);
-    transition: 0.7s;
-    box-shadow: 2px wheat;
+    transform: scale(1.07);
+    transition: 0.6s;
+    text-shadow: 2px 2px black;
+
 }
 /* Image Section */
 .section1-image {
@@ -299,10 +301,12 @@ html,body{
     margin: 0px 0px 0px 0px;
     background-color: black;
     color: orange;
+    text-shadow: 1.2px 1.2px whitesmoke;
 }
 .quiz-section-text-1 p:hover{
     transform: scale(1.1);
     transition: 0.5s;
+    text-shadow: 1px 1px black;
 }
 .quiz-section-text-2{
     background-color: black;
