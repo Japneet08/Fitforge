@@ -63,7 +63,7 @@ html,body{
 
 /* Navbar item styling */
 .navbar-nav .nav-item {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 /* Navbar link hover effect */
@@ -71,7 +71,11 @@ html,body{
     color: orange !important; /* Ensure the hover color takes effect */
     text-decoration: none;
 }
-
+.navbar-nav .btn:hover{
+    background-color: black;
+    color: orange;
+    border: 1px solid #ffa500;
+}
 .section1 {
     position: relative; /* Relative positioning for proper layering */
     background-color: black;
