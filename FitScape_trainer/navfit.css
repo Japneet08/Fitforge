@@ -1,7 +1,6 @@
 * {
     margin: 0px;
     padding: 0px;
-
 }
 
 .main {
@@ -356,166 +355,101 @@
     padding-left: 16px;
 }
 
-.footer {
+
+/* footer */
+.footer-section6{
+    height: 650px;
     background-image: url('https://i.ibb.co/mbmqV3F/footer-bg.png');
-    color: white;
-}
-
-.all-footer-icons {
     display: flex;
-    width: 10%;
+    padding: 50px 24px 0px;
 }
-
-.footer-logo img {
-    padding-top: 26px;
-    padding-bottom: 21px;
-
+.footer{
+    background-color: black;
+    width: 100%;
+    padding-right: 150px;
 }
-
-.instagram img {
-    width: 42px;
-    margin-left: 10px;
+.footer-fitscape{
+    width: 100%;
+    height:70px;
+    background-color: black;
+    color: orange;
+    display: flex;
+    align-items: center;    
+    font-size: 70px;
+    padding-left: 50px;
 }
-
-.facebook img {
-    width: 41px;
-}
-
-.pinterest img {
-    width: 42px;
-    /* padding-left: 11%; */
-    margin-left: 10px;
-}
-
-.footer-left-side {
-    padding-top: 20px;
-    padding-bottom: 49px;
-}
-
-.footer-phone-icon {
+.footer-section2{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    padding-top: 30px;
     display: flex;
 }
 
-.footer-email-icon {
+.footer-section2-box1{
+    width: 30%;
+    height: 300px;
+    background-color: black;
+    padding-top: 30px;
+    padding-left: 50px;
+    margin-right: 100px;
+}
+
+#footer-section1{
+    margin: 10px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.footer-section2-boxes{
+    height: auto;
+    width: 15%;
+    /* background-color: black; */
+    margin-right: 20px;
     display: flex;
+    flex-direction: column;
 }
 
-.DVD-para {
-    padding-bottom: 2px;
-    margin-bottom: 0;
+.section2-boxes-divs{
+    height: 25px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: black;
+    color: whitesmoke;
 }
-
-.NE-para {
-    margin-bottom: 0;
+.footer-section2-btn{
+    background-color: black;
+    color: grey;
+    /* opacity: 0.5; */
+    border: none;
 }
-
-.footer-right-side {
-    padding-top: 99px;
+.footer-section2-btn:hover{
+    color: whitesmoke;
+    transform: scale(1.01);
 }
-
-.footer-phone-icon p {
-    padding-left: 9px;
-    padding-top: 3px;
-    margin-bottom: 0;
-}
-
-.footer-email-icon p {
-    padding-left: 9px;
-}
-
-.testimonials {
-    background-color: whitesmoke;
-}
-
-.testimonials-heading-para {
-    text-align: center;
-}
-
-.testimonial-left-image {
-    padding-left: 0;
-    background-color: white;
-    opacity: 0.5;
-    border-radius: 9px;
-    border-style: none;
-}
-
-.center-div-testimonial {
-    margin-left: 12px;
-    background-color: white;
-
-    border-radius: 9px;
-    border-style: none;
+.footer-section2-coach{
+    background-color: black;
+    width: 25%;
     display: flex;
+    flex-direction: column;
 }
 
-.center-div-text {
-    padding-left: 11px;
-    width: 59%;
-    padding-top: 15px;
+.footer-section2-coach h2{
+    background-color: black;
+    color: #ffa500;
+    font-size: 30px;
+    text-align: right;
+}
+.footer-section2-coach h2:hover{
+    transform: scale(1.2);
+    color: #FFB733;
+    transition: 0.5s;
 }
 
-.center-div-text h6 {
-    font-weight: 600;
-}
-
-.step4-hr {
-    width: 56px;
-}
-
-.step5-hr {
-    width: 46px;
-}
-
-@media only screen and (max-width: 431px) {
-    .header-image {
-        visibility: collapse;
-    }
-
-    .step-1-image {
-        visibility: collapse;
-    }
-
-    .step-2-image {
-        visibility: collapse;
-    }
-
-    .step-3-image {
-        visibility: collapse;
-    }
-
-    .images-hidden {
-        display: none;
-        padding-top: 0;
-    }
-
-    .responsive {
-        padding-top: 0;
-    }
-
-    .for-responsive {
-        padding-left: 52px
-    }
-
-    .DVD-para {
-        display: none;
-    }
-
-    .NE-para {
-        display: none;
-    }
-
-    .miami {
-        display: none;
-    }
-
-    .footer-logo {
-        float: left;
-        padding-right: 14px;
-    }
-
-    .footer-email-icon a {
-        float: right;
-        text-decoration: none;
-
-    }
+.custom-button{
+    margin-top: 35px ;
+    background-color: black;
+    height: auto;
+    display: flex;
+    justify-content: end;
 }
