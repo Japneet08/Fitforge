@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Fitness Report</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="report.css">
+</head>
+<body>
+    <div class="report-container">
+        <h1>Your Fitness Report</h1>
+        <div class="report-content">
+            <p><strong>Physical activity:</strong> <span id="physical-activity"></span></p>
+            <p><strong>Diet:</strong> <span id="diet"></span></p>
+            <p><strong>Sitting time:</strong> <span id="sitting-time"></span></p>
+            <p><strong>Fruits & veggies intake:</strong> <span id="fruits-veggies"></span></p>
+            <p><strong>Strength training:</strong> <span id="strength-training"></span></p>
+            <p><strong>Sleep quality:</strong> <span id="sleep-quality"></span></p>
+            <p><strong>Fitness goal:</strong> <span id="fitness-goal"></span></p>
+            <p><strong>Workout duration:</strong> <span id="workout-duration"></span></p>
+            <p><strong>Cardiovascular endurance:</strong> <span id="cardio-endurance"></span></p>
+            <p><strong>Post-workout energy:</strong> <span id="post-workout-energy"></span></p>
+        </div>
+        <div class="feedback-section">
+            <h2>Feedback:</h2>
+            <p id="feedback-message"></p>
+            <a href="#" class="fitness-link">Start Your Fitness Journey Today</a>
+        </div>
+    </div>
+
+    <script>
+        // Sample data from user input (Replace this with actual quiz form values)
+        const userData = {
+            physicalActivity: "Moderately active",
+            diet: "Balanced but can improve",
+            sittingTime: "8 hours a day",
+            fruitsVeggies: "2 servings per day",
+            strengthTraining: "2 times a week",
+            sleepQuality: "Good (7-8 hours)",
+            fitnessGoal: "Lose weight",
+            workoutDuration: "45 minutes",
+            cardioEndurance: "Good",
+            postWorkoutEnergy: "Moderate"
+        };
+
+        // Function to display the report data
+        document.getElementById('physical-activity').textContent = userData.physicalActivity;
+        document.getElementById('diet').textContent = userData.diet;
+        document.getElementById('sitting-time').textContent = userData.sittingTime;
+        document.getElementById('fruits-veggies').textContent = userData.fruitsVeggies;
+        document.getElementById('strength-training').textContent = userData.strengthTraining;
+        document.getElementById('sleep-quality').textContent = userData.sleepQuality;
+        document.getElementById('fitness-goal').textContent = userData.fitnessGoal;
+        document.getElementById('workout-duration').textContent = userData.workoutDuration;
+        document.getElementById('cardio-endurance').textContent = userData.cardioEndurance;
+        document.getElementById('post-workout-energy').textContent = userData.postWorkoutEnergy;
+
+        // Function to generate personalized feedback
+        function generateFeedback(data) {
+            let feedback = "";
+
+            if (data.physicalActivity === "Not active") {
+                feedback += "It's important to increase your physical activity to improve overall health. ";
+            } else if (data.physicalActivity === "Moderately active") {
+                feedback += "Good job on staying moderately active! ";
+            } else {
+                feedback += "Excellent! You are very active. ";
+            }
+
+            if (data.diet.includes("can improve")) {
+                feedback += "Consider refining your diet for better results. ";
+            } else {
+                feedback += "Your diet seems balanced. Keep up the good work! ";
+            }
+
+            if (data.sittingTime.includes("8 hours a day")) {
+                feedback += "Try to reduce your sitting time to avoid potential health issues. ";
+            }
+
+            if (data.fruitsVeggies.includes("2 servings per day")) {
+                feedback += "Increasing your fruit and veggie intake can benefit your health. ";
+            }
+
+            if (data.strengthTraining.includes("2 times a week")) {
+                feedback += "Consider increasing your strength training sessions for better results. ";
+            }
+
+            if (data.sleepQuality.includes("Good")) {
+                feedback += "Great job on getting quality sleep. ";
+            } else {
+                feedback += "Improving sleep quality can enhance overall health. ";
+            }
+
+            if (data.fitnessGoal === "Lose weight") {
+                feedback += "Focus on maintaining a healthy balance of diet and exercise to reach your weight loss goals. ";
+            }
+
+            if (data.workoutDuration.includes("45 minutes")) {
+                feedback += "45 minutes is a solid workout duration. Keep it up! ";
+            } else {
+                feedback += "Aim for at least 30 minutes of exercise daily. ";
+            }
+
+            if (data.cardioEndurance === "Good") {
+                feedback += "Your cardiovascular endurance is in great shape. ";
+            }
+
+            if (data.postWorkoutEnergy === "Moderate") {
+                feedback += "Consider adjusting your post-workout nutrition to boost your energy levels. ";
+            }
+
+            return feedback;
+        }
+
+        // Display the personalized feedback
+        document.getElementById('feedback-message').textContent = generateFeedback(userData);
+    </script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Report</title>
+    <link rel="stylesheet" href="report.css">
+</head>
+<body>
+    <div class="report-container"></div>
+        <h1>Your Fitness Report</h1>
+        <div class="report-content">
+            <p><strong>Physical activity:</strong> <span id="physical-activity"></span></p>
+            <p><strong>Diet:</strong> <span id="diet"></span></p>
+            <p><strong>Sitting time:</strong> <span id="sitting-time"></span></p>
+            <p><strong>Fruits & veggies intake:</strong> <span id="fruits-veggies"></span></p>
+            <p><strong>Strength training:</strong> <span id="strength-training"></span></p>
+            <p><strong>Sleep quality:</strong> <span id="sleep-quality"></span></p>
+            <p><strong>Fitness goal:</strong> <span id="fitness-goal"></span></p>
+            <p><strong>Workout duration:</strong> <span id="workout-duration"></span></p>
+            <p><strong>Cardiovascular endurance:</strong> <span id="cardio-endurance"></span></p>
+            <p><strong>Post-workout energy:</strong> <span id="post-workout-energy"></span></p>
+        </div>
+    <div class="report-container">
+        <h1>Your Fitness Report</h1>
+        <div id="fitnessReport"></div>
+        <h2>Personalized Feedback</h2>
+        <div id="fitnessFeedback"></div>
+        <a href="index.html" class="home-link">Start Your Fitness Journey Again</a>
+    </div>
+
+    <script>
+        // Retrieve report and feedback from localStorage
+        const report = localStorage.getItem('fitnessReport');
+        const feedback = localStorage.getItem('fitnessFeedback');
+        
+        // Display the results on the page
+        document.getElementById('fitnessReport').textContent = report;
+        document.getElementById('fitnessFeedback').textContent = feedback;
+    </script>
+</body>
+</html>
+ -->
