@@ -1,32 +1,40 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-   
+
 }
-.main{
+
+.main {
     width: 100%;
+    background-color: black;
 }
-.header{
+
+.header {
     position: fixed;
     z-index: 1;
 }
+
 .topnav a:hover {
     border-bottom: 3px solid red;
 }
-.our-proj-offer{
+
+.our-proj-offer {
     text-align: center;
     padding-top: 71px;
     padding-bottom: 77px;
- }
- .types-of-trainers img{
+}
+
+.types-of-trainers img {
     width: 100%;
- }
- .text-trainer-offer{
+}
+
+.text-trainer-offer {
     text-align: center;
     padding-left: 12px;
- }
+    color: white;
+}
 
- .text-trainer-offer button{
+.text-trainer-offer button {
     width: 44%;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -35,44 +43,55 @@
     border-color: #e27888;
     color: #e27888;
     margin-bottom: 3rem;
- }
- .text-trainer-offer button:hover{
+}
+
+.text-trainer-offer button:hover {
     background-color: #e27888;
     border-color: #e27888;
     color: white;
- }
- .button1{
+}
+
+.button1 {
     width: 44%;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 6px;
     border-color: #e27888;
     background-color: white;
-    color:#e27888 ;
- }
- .button1:hover{
-    background-color: black;
-    border-color: black;
+    color: #e27888;
+}
+
+.button1:hover {
+    background-color: #e27888;
+    border-color: #e27888;
     color: white;
- }
- .our-proj-offer h2{
-   margin-top: 4rem;
- }
- .our-proj-offer img{
+}
+
+.our-proj-offer h2 {
+    margin-top: 4rem;
+    color: white;
+}
+
+.our-proj-offer img {
     padding-bottom: 2.5rem;
     padding-top: 0.5rem;
- }
- .about-our-page h2{
+}
+
+.about-our-page h2 {
     margin-bottom: 0;
-  }
-  .about-our-page img{
-     padding-bottom: 29px;
-  }
-  .trainer-distribution img{
+    color: white;
+}
+
+.about-our-page img {
+    padding-bottom: 29px;
+}
+
+.trainer-distribution img {
     width: 70%;
     padding-left: 14rem;
-  }
-  .trainer-distribution-whiteimg{
+}
+
+.trainer-distribution-whiteimg {
     border: 1px solid;
     width: 33%;
     position: absolute;
@@ -87,16 +106,21 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 3rem;
     height: 26rem;
-  }
-  .trainer-distribution-whiteimg h2{
+}
+
+.trainer-distribution-whiteimg h2 {
     padding-top: 18px;
     padding-bottom: 21px;
-  }
-  .trainer-distribution-whiteimg p{
+    color: black;
+}
+
+.trainer-distribution-whiteimg p {
     text-align: left;
     padding-left: 13px;
-  }
-  .button2{
+    color: black;
+}
+
+.button2 {
     width: 26%;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -108,25 +132,30 @@
     margin-left: 12px;
     /* margin-bottom: -5px; */
     margin-top: 10px;
-  }
-  .button2:hover{
-    background-color: black;
-    border-color: black;
+}
+
+.button2:hover {
+    background-color: #e27888;
+    border-color: #e27888;
     color: white;
-  }
-  .about-our-page{
+}
+
+.about-our-page {
     text-align: center;
     padding-bottom: 52px;
-  }
-.heading-syas-customers{
-    text-align: center;
-    color: black;
 }
-.customer_background{
+
+.heading-syas-customers {
+    text-align: center;
+    color: white;
+}
+
+.customer_background {
     background-image: url('https://i.ibb.co/Y3g7STr/alexander-redl-d3b-Ymn-Z0ank-unsplash.jpg');
     background-size: cover;
     padding-bottom: 52px;
 }
+
 /* .prep-Techniques{
     border: 1px solid;
     width: 31%;
@@ -153,64 +182,79 @@
     padding-left: 29px;
     padding-top: 0px;
 }
+
 .Mihacal-description {
     padding-left: 29px;
     padding-top: 0px;
 }
+
 .Joy-description {
     padding-left: 29px;
-     padding-top: 0px;
+    padding-top: 0px;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     margin-left: 25rem;
 }
 
-@media only screen and (max-width: 431px){
+@media only screen and (max-width: 431px) {
 
-    .navbar-toggler{
+    .navbar-toggler {
         margin-left: 12rem;
     }
+
     .heading-syas-customers {
         text-align: center;
         padding-top: 9px;
     }
+
     .JOY-img img {
         padding-left: 0px;
     }
+
     .MIHACAL-img img {
         padding-left: 0px;
     }
+
     .Uliya-den-img img {
         padding-left: 0px;
     }
 }
+
 .JOY-img {
     margin-top: 2rem;
     margin-left: 3rem;
-}    
-.customer-description h5{
+}
+
+.customer-description h5 {
     font-size: 1.25rem;
     margin-top: -10rem;
     margin-left: 16rem;
     color: aliceblue;
 }
-.customer-description p{
+
+.customer-description p {
     margin-left: 16rem;
 }
-.MIHACAL-img  {
+
+.MIHACAL-img {
     margin-top: 5rem;
     margin-left: 3rem;
 }
-.Uliya-den-img img{
+
+.Uliya-den-img img {
     margin-top: 5rem;
     margin-left: 3rem;
 }
-.touch{
+
+.touch {
     text-align: center;
     padding-bottom: 54px;
     margin-top: 8rem;
- }
- .your-name{
+    color: white;
+}
+
+.your-name {
     width: 50%;
     border-radius: 16px;
     padding-left: 11px;
@@ -219,8 +263,9 @@
     margin-bottom: 20px;
     border: none;
     background-color: #dbdbe5;
- }
- .Your-Email{
+}
+
+.Your-Email {
     width: 50%;
     border-radius: 16px;
     padding-left: 11px;
@@ -229,8 +274,9 @@
     margin-bottom: 20px;
     border: none;
     background-color: #dbdbe5;
- }
- .your-phone{
+}
+
+.your-phone {
     width: 50%;
     border-radius: 16px;
     padding-left: 11px;
@@ -239,8 +285,9 @@
     margin-bottom: 20px;
     border: none;
     background-color: #dbdbe5;
- }
- .Message{
+}
+
+.Message {
     width: 50%;
     border-radius: 16px;
     padding-left: 11px;
@@ -249,25 +296,33 @@
     margin-bottom: 20px;
     border: none;
     background-color: #dbdbe5;
- }
- .touch_form{
+}
+
+.touch_form {
     padding-top: 51px;
- }
- .touch_send-button button{
+}
+
+.touch_send-button button {
     width: 9%;
     padding-top: 10px;
     padding-bottom: 9px;
-    background-color: #F27887;
     border-radius: 8px;
-    border: none;
-    color: white;
- }
-.touch_send-button button:hover{
-    background-color: green;
-    border-color: green;
+    border-color: #e27888;
+    background-color: white;
+    color: #e27888;
+    float: initial;
+    margin-left: 12px;
+    /* margin-bottom: -5px; */
+    margin-top: 10px;
+}
+
+.touch_send-button button:hover {
+    background-color: #e27888;
+    border-color: #e27888;
     color: white;
 }
- .address{
+
+.address {
     text-align: center;
     color: white;
     background-position: 100% 25%;
@@ -276,154 +331,191 @@
     padding-top: 97px;
     padding-bottom: 0px;
 }
- .adress_heading h2{
+
+.adress_heading h2 {
     padding-bottom: 43px;
     font-weight: 900;
- }
-.uper-line-adress{
+}
+
+.uper-line-adress {
     margin-bottom: 0;
 }
-.lower-line-address{
+
+.lower-line-address {
     padding-bottom: 34px;
 }
-.phone-number p{
+
+.phone-number p {
     margin-bottom: 6px;
 }
-.Email{
+
+.Email {
     width: 31%;
     padding-top: 9px;
     padding-bottom: 9px;
     padding-left: 16px;
 }
-.footer{
+
+.footer {
     background-image: url('https://i.ibb.co/mbmqV3F/footer-bg.png');
     color: white;
 }
-.all-footer-icons{
+
+.all-footer-icons {
     display: flex;
     width: 10%;
 }
-.footer-logo img{
+
+.footer-logo img {
     padding-top: 26px;
     padding-bottom: 21px;
 
 }
-.instagram img{
+
+.instagram img {
     width: 42px;
     margin-left: 10px;
 }
-.facebook img{
+
+.facebook img {
     width: 41px;
 }
-.pinterest img{
+
+.pinterest img {
     width: 42px;
     /* padding-left: 11%; */
     margin-left: 10px;
 }
-.footer-left-side{
+
+.footer-left-side {
     padding-top: 20px;
     padding-bottom: 49px;
 }
-.footer-phone-icon{
+
+.footer-phone-icon {
     display: flex;
 }
-.footer-email-icon{
+
+.footer-email-icon {
     display: flex;
 }
-.DVD-para{
+
+.DVD-para {
     padding-bottom: 2px;
     margin-bottom: 0;
 }
-.NE-para{
+
+.NE-para {
     margin-bottom: 0;
 }
-.footer-right-side{
+
+.footer-right-side {
     padding-top: 99px;
 }
-.footer-phone-icon p{
+
+.footer-phone-icon p {
     padding-left: 9px;
     padding-top: 3px;
     margin-bottom: 0;
 }
-.footer-email-icon p{
+
+.footer-email-icon p {
     padding-left: 9px;
 }
-.testimonials{
+
+.testimonials {
     background-color: whitesmoke;
 }
-.testimonials-heading-para{
+
+.testimonials-heading-para {
     text-align: center;
 }
-.testimonial-left-image{
+
+.testimonial-left-image {
     padding-left: 0;
     background-color: white;
     opacity: 0.5;
     border-radius: 9px;
     border-style: none;
 }
-.center-div-testimonial{
-   margin-left: 12px;
+
+.center-div-testimonial {
+    margin-left: 12px;
     background-color: white;
-   
+
     border-radius: 9px;
     border-style: none;
     display: flex;
 }
-.center-div-text{
+
+.center-div-text {
     padding-left: 11px;
     width: 59%;
     padding-top: 15px;
 }
-.center-div-text h6{
+
+.center-div-text h6 {
     font-weight: 600;
 }
-.step4-hr{
+
+.step4-hr {
     width: 56px;
 }
-.step5-hr{
+
+.step5-hr {
     width: 46px;
 }
-@media only screen and (max-width: 431px){
-    .header-image{
-      visibility: collapse;
+
+@media only screen and (max-width: 431px) {
+    .header-image {
+        visibility: collapse;
     }
-    .step-1-image{
-     visibility: collapse;
+
+    .step-1-image {
+        visibility: collapse;
     }
-    .step-2-image{
-       visibility: collapse;
+
+    .step-2-image {
+        visibility: collapse;
     }
-    .step-3-image{
-     visibility: collapse;
+
+    .step-3-image {
+        visibility: collapse;
     }
-    .images-hidden
-    {
+
+    .images-hidden {
         display: none;
         padding-top: 0;
     }
-    .responsive{
-        padding-top: 0 ;
+
+    .responsive {
+        padding-top: 0;
     }
-    .for-responsive{
-        padding-left:52px
+
+    .for-responsive {
+        padding-left: 52px
     }
-    .DVD-para{
+
+    .DVD-para {
         display: none;
     }
-    .NE-para{
+
+    .NE-para {
         display: none;
     }
-    .miami{
+
+    .miami {
         display: none;
     }
-    
-    .footer-logo{
+
+    .footer-logo {
         float: left;
         padding-right: 14px;
     }
-    .footer-email-icon a{
+
+    .footer-email-icon a {
         float: right;
-       text-decoration: none;
-        
+        text-decoration: none;
+
     }
 }
