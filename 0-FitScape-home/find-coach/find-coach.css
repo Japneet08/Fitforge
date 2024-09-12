@@ -25,6 +25,8 @@
 
 .types-of-trainers img {
     width: 100%;
+    border: 10px;
+    border-color: white;
 }
 
 .text-trainer-offer {
@@ -95,14 +97,14 @@
     width: 33%;
     position: absolute;
     z-index: 0.5;
-    background-color: rgb(213, 211, 211);
+    background-color: white;
     left: 150px;
     top: 0rem;
     padding-left: 1px;
     padding-right: 13px;
     padding-bottom: 25px;
     border: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(2, 2, 2, 2.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 3rem;
     height: 26rem;
     border: 1px solid black;
@@ -151,7 +153,9 @@
 }
 
 .customer_background {
-    background-image: url('https://i.ibb.co/Y3g7STr/alexander-redl-d3b-Ymn-Z0ank-unsplash.jpg');
+    background-image: url('https://i.ibb.co/6yhQVhB/test-bg.png');
+    border-radius: 50px 35px;
+    border-color: whitesmoke;
     background-size: cover;
     padding-bottom: 52px;
 }
@@ -230,7 +234,7 @@
     font-size: 1.25rem;
     margin-top: -10rem;
     margin-left: 16rem;
-    color: aliceblue;
+    color: black;
 }
 
 .customer-description p {
@@ -262,7 +266,7 @@
     padding-bottom: 4px;
     margin-bottom: 20px;
     border: none;
-    background-color: #dbdbe5;
+    background-color: white;
 }
 
 .Your-Email {
@@ -273,7 +277,7 @@
     padding-bottom: 4px;
     margin-bottom: 20px;
     border: none;
-    background-color: #dbdbe5;
+    background-color: white;
 }
 
 .your-phone {
@@ -284,7 +288,7 @@
     padding-bottom: 4px;
     margin-bottom: 20px;
     border: none;
-    background-color: #dbdbe5;
+    background-color: white;
 }
 
 .Message {
@@ -295,7 +299,7 @@
     padding-bottom: 15px;
     margin-bottom: 20px;
     border: none;
-    background-color: #dbdbe5;
+    background-color: white;
 }
 
 .touch_form {
