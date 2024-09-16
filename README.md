@@ -7,6 +7,7 @@
   <tr><td>findcoach.html</td><td>User finding a personal coach</td></tr>
   <tr><td>blogs.html</td><td>Blogs on FitScape Website</td></tr>
   <tr><td>quiz.html</td><td>Quiz on FitScape Website</td></tr>
+   <tr><td>chat portal </td><td>home->chat</td></tr>
 </table>
 
 
